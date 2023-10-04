@@ -12,6 +12,12 @@ import { RegistrarFacturaComponent } from './registrar-factura/registrar-factura
 import { AprobacionFacComponent } from './aprobacion-fac/aprobacion-fac.component';
 import { FormularioUsuariosComponent } from './formulario-usuarios/formulario-usuarios.component';
 import { ListadoUsuariosComponent } from './listado-usuarios/listado-usuarios.component';
+import { SistemaFacturacionComponent } from './sistema-facturacion/sistema-facturacion.component';
+import { VerificacionFacturaComponent } from './verificacion-factura/verificacion-factura.component';
+import { DetalleFacturaComponent } from './detalle-factura/detalle-factura.component';
+import { InfoFacturaComponent } from './info-factura/info-factura.component';
+import { AprobacionFacturaComponent } from './aprobacion-factura/aprobacion-factura.component';
+
 
 @NgModule({
     imports: [
@@ -20,6 +26,6 @@ import { ListadoUsuariosComponent } from './listado-usuarios/listado-usuarios.co
         TranslateModule,
         NgbDropdownModule
     ],
-    declarations: [LayoutComponent, SidebarComponent, HeaderComponent, UsuariosComponent, RegistrarFacturaComponent, AprobacionFacComponent, FormularioUsuariosComponent, ListadoUsuariosComponent]
+    declarations: [LayoutComponent, SidebarComponent, HeaderComponent, UsuariosComponent, RegistrarFacturaComponent, AprobacionFacComponent, FormularioUsuariosComponent, ListadoUsuariosComponent, SistemaFacturacionComponent, VerificacionFacturaComponent, DetalleFacturaComponent, InfoFacturaComponent, AprobacionFacturaComponent, ]
 })
 export class LayoutModule {}

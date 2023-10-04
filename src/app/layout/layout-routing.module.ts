@@ -6,6 +6,11 @@ import { RegistrarFacturaComponent } from './registrar-factura/registrar-factura
 import { AprobacionFacComponent } from './aprobacion-fac/aprobacion-fac.component';
 import { FormularioUsuariosComponent } from './formulario-usuarios/formulario-usuarios.component';
 import { ListadoUsuariosComponent } from './listado-usuarios/listado-usuarios.component';
+import { SistemaFacturacionComponent } from './sistema-facturacion/sistema-facturacion.component';
+import { VerificacionFacturaComponent } from './verificacion-factura/verificacion-factura.component';
+import { DetalleFacturaComponent } from './detalle-factura/detalle-factura.component';
+import { InfoFacturaComponent } from './info-factura/info-factura.component';
+import { AprobacionFacturaComponent } from './aprobacion-factura/aprobacion-factura.component';
 
 const routes: Routes = [
     {
@@ -20,7 +25,12 @@ const routes: Routes = [
             { path: 'registro-factura', component: RegistrarFacturaComponent},
             { path: 'aprobacion-factura', component: AprobacionFacComponent },
             { path: 'formulario-usuarios', component: FormularioUsuariosComponent },
-            { path: 'listado-usuarios', component: ListadoUsuariosComponent }
+            { path: 'listado-usuarios', component: ListadoUsuariosComponent },
+            { path: 'sistemaFacturacion', component: SistemaFacturacionComponent },
+            { path: 'verificacionFactura', component: VerificacionFacturaComponent },
+            { path: 'detalleFactura', component: DetalleFacturaComponent },
+            { path: 'infoFactura', component: InfoFacturaComponent },
+            { path: 'aprobacionFactura', component: AprobacionFacturaComponent }
             
         ]
     }
